@@ -73,6 +73,36 @@ h1 {
     margin: 10px;
 
 }
+
+.h2_popular_musicians{
+    margin-top: 20px;
+    
+}
+.round_musicians_list {
+    display: flex;
+    justify-content: center;
+    margin: 20px 250px 50px 250px;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+    
+}
+
+.round{
+    margin-bottom: 10px;
+}
+
+.popular{
+    border-radius: 50%;
+    height: 120px;
+}
+
+.genre{
+    font-size: 16px;
+    margin-top: 10px;
+    color: #666;
+    margin-left: 30px;
+}
 .right_nav_bar {
     font-size: 18px;
     padding: 10px;
@@ -122,6 +152,7 @@ h1 {
 .link_footer {
     text-decoration: none;
     color: #fff;
+    font-size: 14px;
 }
 .link_footer:hover {
     text-decoration: underline;
@@ -150,4 +181,54 @@ h1 {
 .dashboard-intro-2 {
     font-size: 16px;
     color: #fff;
+}
+
+.footer-bottom{
+    padding-bottom: 48px;
+    border-top: 1px solid #222;
+}
+
+.footer-bottom-container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.row{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.footer-language-selector{
+    width: 720px;
+}
+
+.language-selector{
+    margin-top: 15px;
+}
+.language-li{
+    display: inline;
+    color: #666;
+    margin-right: 10px;
+}
+.footer-timezone{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
+.footer-timezone strong {
+    color: #fff;
+}
+.footer-legal{
+    color: #666;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 12px;
+}
+.footer-legal-item{
+    display: inline-block;
+}
+.scrobbler{
+    margin-top: -60px;
+    text-align: right;
+    font-size: 12px;
+    margin-right: 40px;
 }
