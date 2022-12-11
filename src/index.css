@@ -38,6 +38,12 @@ h1 {
 
 }
 
+.search_form{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
 .h2_popular_musicians{
     text-align: center;
 }
@@ -68,9 +74,8 @@ h1 {
 .right_nav {
     display: flex;
     float: right;
-    /* max-width: 50%; */
+    /* height: 100%; */
     padding-right: 30px;
-    margin: 10px;
 
 }
 
@@ -106,6 +111,7 @@ h1 {
 .right_nav_bar {
     font-size: 18px;
     padding: 10px;
+    margin-top: 10px;
 
 }
 .link {

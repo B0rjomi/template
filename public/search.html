@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel = "stylesheet" href = "../src/index.css"/>
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <title>Last.fm</title>
+  </head>
+  <body class = "app">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <header class = "header">
+      <a class = "player-bar-artwork">
+        <img src="player_default.png">
+      </a>
+      <div class = "lastfm_logo">
+        <a href="../public/index.html" class="header_logo">
+          <img src="lastfm_logo.png" width="150" />
+        </a>
+      </div>
+      <div class = "right_nav">
+        <form class="search_form" action="./search.html">
+          <input type="text" class="right_nav_bar_link" placeholder="Поиск">
+          <button class="submit">Поиск</button>
+        <!-- <a href="/" class="right_nav_bar link">Поиск</a> -->
+        </form>
+        <!-- <a href="/" class="right_nav_bar link">Live</a>
+        <a href="/" class="right_nav_bar link">Музыка</a>
+        <a href="/" class="right_nav_bar link">Чарты</a>
+        <a href="/" class="right_nav_bar link">События</a>
+        <a href="/" class="right_nav_bar link">Избранное</a>
+        <a href="/" class="right_nav_bar link">Вход</a> -->
+      </div>
+    </header>
+    <main class = "content">
+      <div class="header-background">
+        <div class="header-billboard">
+          <div class="header-info">
+            <h1 class="billboard-title">Посмотри рейтинг музыки, составленный на основе того, 
+              что ты слушаешь 
+            </h1>
+            <p class="dashboard-intro">
+              Мы собрали на одной платформе все твои любимые 
+              музыкальные сервисы — слушай, смотри, общайся. 
+            </p>
+            <p class = "dashboard-intro-2">
+              Ниже в визуальной форме представлены тенденции и музыкальные 
+                предпочтения глобального сообщества Last.fm, 
+                обновляемые в режиме реального времени. Изучай. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <h1>Вы нашли что искали</h1>
+    <div class = 'round_musicians_list'>
+        <div class = 'round'>
+          <a href = '/'><img class = 'popular' src = '../public/weeknd.png'></a>
+          <div class = 'genre'>Weeknd</div>
+        </div>
+        <div class = 'round'>
+          <a href = '/'><img class = 'popular' src = '../public/weeknd.png'></a>
+          <div class = 'genre'>Weeknd</div>
+        </div>
+        <div class = 'round'>
+          <a href = '/'><img class = 'popular' src = '../public/weeknd.png'></a>
+          <div class = 'genre'>Weeknd</div>
+        </div>
+    </div>
+
+    <footer class = "footer">
+        <div class="footer-top">
+          <div class="container">
+            <div class="footer-top-row">
+              <div class="footer-top-col">
+                <h2 class = "footer-heading">Компания</h2>
+                <ul class="footer-links">
+                  <li>
+                    <a href="/" class="link_footer">О Last.fm</a>
+                  </li>
+                  <li>
+                    <a href="/" class="link_footer">Связаться с нами</a>
+                  </li>
+                  <li>
+                    <a href="/" class="link_footer">Вакансии</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-top-col">
+                <h2 class="footer-heading">Справка</h2>
+                <ul class="footer-links">
+                  <li>
+                    <a href = "/" class = "link_footer">Отслеживай музыку</a>
+                  </li>
+                  <li>
+                    <a href = "/" class = "link_footer">Поддержка сообщества</a>
+                  </li>
+                  <li>
+                    <a href = "/" class = "link_footer">Правила сообщества</a>
+                  </li>
+                  <li>
+                    <a href = "/" class = "link_footer">Справка</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-top-col">
+                <h2 class = "footer-heading">Фишки</h2>
+                <ul class="footer-links">
+                  <li>
+                    <a href = "/" class = "link_footer">Загрузить Скробблер</a>
+                  </li>
+                  <li>
+                    <a href = "/" class = "link_footer">API для разработчиков</a>
+                  </li>
+                  <li>
+                    <a href = "/" class = "link_footer">Загрузка музыки</a>
+                  </li>
+                  <li>
+                    <a href = "/" class = "link_footer">Товары</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-top-col">
+                <h2 class="footer-heading">Аккаунт</h2>
+                <ul class="footer-links">
+                  <li>
+                    <a href = "/" class = "link_footer">Регистрация</a>
+                  </li>
+                  <li>
+                    <a href = "/" class = "link_footer">Вход</a>
+                  </li>
+                  <li>
+                    <a href = "/" class = "link_footer">Подписаться</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-top-col">
+                <h2 class="footer-heading">Наши соцсети</h2>
+                <ul class="footer-links">
+                  <li>
+                    <a href = "https://www.facebook.com/lastfm/" class = "link_footer">Facebook</a>
+                  </li>
+                  <li>
+                    <a href = "/" class = "link_footer">Twitter</a>
+                  </li>
+                  <li>
+                    <a href = "/" class = "link_footer">Instagram</a>
+                  </li>
+                  <li>
+                    <a href = "https://www.youtube.com/@Lastfm" class = "link_footer">YouTube</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class = 'footer-bottom-container'>
+            <div class = 'row'>
+              <div class = 'footer-language-selector'>
+                <ul class = 'language-selector'>
+                  <li class = 'language-li'>
+                    <a >English</a>
+                  </li>
+                  <li class = 'language-li'>
+                    <a >Deutsch</a>
+                  </li>
+                  <li class = 'language-li'>
+                    <a >Espanol</a>
+                  </li>
+                  <li class = 'language-li'>
+                    <a >Francais</a>
+                  </li>
+                  <li class = 'language-li'>
+                    <a >Italiano</a>
+                  </li>
+                  <li class = 'language-li'>
+                    <a >Cheneese</a>
+                  </li>
+                  <li class = 'language-li'>
+                    <a >Русский</a>
+                  </li>
+                  <li class = 'language-li'>
+                    <a>Svenska</a>
+                  </li>
+                </ul>
+                <p class = "footer-timezone">
+                  <span>Часовой пояс: <strong>Europe/Moscow</strong></span>
+                </p>
+              </div>
+              <div class = 'footer-legal'>
+                <ul>
+                  <li class = 'footer-legal-item'>
+                    <a rel = 'nofollow'>CBS Interactive</a>
+                    @ 2022
+                    <span>Last.fm</span>  Ltd. Все права защищены.
+                  </li>
+                  <li class = 'footer-legal-item'>
+                    <a>Условия пользования</a>
+                  </li>
+                  <li class = 'footer-legal-item'>
+                    <a>Политика конфиденциальности</a>
+                  </li>
+                  <li class = 'footer-legal-item'>
+                    <a>Правовые положения</a>
+                  </li>
+                  <li class = 'footer-legal-item'>
+                    <a>Использование файлов cookies.</a>
+                  </li>
+                </ul>
+              </div>
+              <div class = 'scrobbler'>
+                <p>Audioscrobbler</p>
+                <img src="../public/scrobbler_logo.png" width="37" height="20">
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </body>
+  </html>
